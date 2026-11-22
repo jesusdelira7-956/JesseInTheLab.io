@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jesusdelira7-956.github.io/JesseInTheLab.io/sitemap.xml
