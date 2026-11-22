@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy | Jesus De Lira Extensions</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #c9d1d9;
+      --text-heading: #f0f6fc;
+      --accent: #58a6ff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 3rem 1rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 2.5rem;
+    }
+    h1 {
+      color: var(--text-heading);
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .last-updated {
+      color: #8b949e;
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1rem;
+    }
+    h2 {
+      color: var(--text-heading);
+      font-size: 1.3rem;
+      margin-top: 1.8rem;
+      margin-bottom: 0.75rem;
+    }
+    p, ul {
+      margin-bottom: 1rem;
+      color: var(--text);
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .back-btn {
+      display: inline-block;
+      margin-bottom: 1.5rem;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="back-btn">← Back to Portfolio</a>
+    <h1>Privacy Policy</h1>
+    <div class="last-updated">Last Updated: November 21, 2026</div>
+
+    <p>This Privacy Policy outlines how software and Chrome extensions developed by <strong>Jesus De Lira</strong> (including <em>Semantic Shield</em> and <em>Dual-Memory Optimizer</em>) handle user privacy and data.</p>
+
+    <h2>1. Sovereign &amp; Local-First Principle</h2>
+    <p>We believe user data belongs to the user. Our extensions are architected from the ground up as sovereign, local-first tools. All computations, syntax parsing, prompt condensation, secret scrubbing, and network filtering run strictly on your local device.</p>
+
+    <h2>2. Data Collection and Transmission</h2>
+    <ul>
+      <li><strong>No Personal Information:</strong> We do not collect, log, sell, or share names, email addresses, browsing history, keystrokes, or IP addresses.</li>
+      <li><strong>No External Telemetry:</strong> Our extensions do not contain third-party analytics (no Google Analytics, Mixpanel, or tracking pixels).</li>
+      <li><strong>No Remote Code:</strong> Our extensions do not load or execute external remote scripts, complying strictly with Chrome Web Store Manifest V3 guidelines.</li>
+    </ul>
+
+    <h2>3. Storage and Permissions</h2>
+    <ul>
+      <li><strong>Local Storage:</strong> When an extension stores settings, custom rules, or prompt directives, they are saved strictly in Chrome's local storage sandbox (<code>chrome.storage.local</code> or <code>chrome.storage.sync</code>) on your machine.</li>
+      <li><strong>Declarative Net Request:</strong> Network protection rules (such as blocking cross-origin requests to local LLM ports like <code>127.0.0.1:11434</code>) are evaluated natively inside Chromium's network engine without intercepting packet contents.</li>
+    </ul>
+
+    <h2>4. Third-Party Web Services</h2>
+    <p>Our extensions only interact with websites or web AI chats that you explicitly navigate to. We do not intermediate your connection or send your credentials or prompt content to any server operated by us.</p>
+
+    <h2>5. Contact Information</h2>
+    <p>For questions, support requests, or security inquiries, please open an issue on our official GitHub repositories:</p>
+    <ul>
+      <li><a href="https://github.com/jesusdelira7-956/Semantic-Shield/issues" target="_blank" rel="noopener">Semantic Shield Support</a></li>
+      <li><a href="https://github.com/jesusdelira7-956/dual-memory-optimizer/issues" target="_blank" rel="noopener">Dual-Memory Optimizer Support</a></li>
+      <li>Developer Profile: <a href="https://github.com/jesusdelira7-956" target="_blank" rel="noopener">https://github.com/jesusdelira7-956</a></li>
+    </ul>
+  </div>
+</body>
+</html>

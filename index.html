@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jesus De Lira | AI Systems & Browser Security</title>
+  <meta name="description" content="Portfolio of Jesus De Lira — Developer of sovereign browser extensions, AI prompt optimization, and local LLM security tools.">
+  <!-- GOOGLE_SEARCH_CONSOLE_VERIFICATION_TAG_PLACEHOLDER -->
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #c9d1d9;
+      --text-heading: #f0f6fc;
+      --accent: #58a6ff;
+      --accent-glow: rgba(88, 166, 255, 0.15);
+      --green: #3fb950;
+      --purple: #bc8cff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    header {
+      padding: 3rem 0 2rem;
+      border-bottom: 1px solid var(--border);
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      border-radius: 9999px;
+      background: var(--accent-glow);
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: var(--text-heading);
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.03em;
+    }
+    .tagline {
+      font-size: 1.2rem;
+      color: #8b949e;
+      max-width: 650px;
+      margin: 0 auto 1.5rem;
+    }
+    .links a {
+      display: inline-block;
+      margin: 0 0.5rem;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      transition: all 0.2s;
+    }
+    .links a:hover {
+      background: var(--border);
+      border-color: var(--accent);
+    }
+    section {
+      padding: 3rem 0;
+    }
+    .section-title {
+      font-size: 1.6rem;
+      color: var(--text-heading);
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: var(--accent);
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 1rem;
+    }
+    .card-title {
+      font-size: 1.35rem;
+      color: var(--text-heading);
+    }
+    .version-tag {
+      font-size: 0.75rem;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      background: #238636;
+      color: #ffffff;
+      font-weight: bold;
+    }
+    .card p {
+      color: #8b949e;
+      font-size: 0.95rem;
+      margin-bottom: 1.25rem;
+    }
+    .features {
+      list-style: none;
+      margin-bottom: 1.5rem;
+    }
+    .features li {
+      font-size: 0.88rem;
+      color: var(--text);
+      margin-bottom: 0.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .features li::before {
+      content: "✓";
+      color: var(--green);
+      font-weight: bold;
+    }
+    .btn {
+      display: inline-block;
+      text-align: center;
+      padding: 0.6rem 1.2rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #ffffff;
+      background: #238636;
+      border: 1px solid rgba(240, 246, 252, 0.1);
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .btn:hover {
+      background: #2ea043;
+    }
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 2rem 0;
+      text-align: center;
+      color: #8b949e;
+      font-size: 0.85rem;
+    }
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="badge">Sovereign Software &amp; AI Security</div>
+      <h1>Jesus De Lira</h1>
+      <p class="tagline">Independent Developer building privacy-first browser tools, AI prompt optimizers, and zero-trust local LLM shields.</p>
+      <div class="links">
+        <a href="https://github.com/jesusdelira7-956" target="_blank" rel="noopener">GitHub (@jesusdelira7-956)</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2 class="section-title">Published Chrome Extensions</h2>
+        <div class="grid">
+          
+          <!-- Semantic Shield -->
+          <div class="card">
+            <div>
+              <div class="card-header">
+                <h3 class="card-title">Semantic Shield</h3>
+                <span class="version-tag">v2.1.0</span>
+              </div>
+              <p>Perimeter firewall and prompt security for local AI runtimes and browser agents.</p>
+              <ul class="features">
+                <li>0.0.0.0-Day Protection for Ollama, llama-server &amp; vLLM</li>
+                <li>Indirect Prompt Injection (IPI) hidden-text auditor</li>
+                <li>Active Tab WebMCP inspector &amp; permission barrier</li>
+                <li>68 curated privacy &amp; telemetry blocking rules</li>
+                <li>Zero external tracking, 100% on-device processing</li>
+              </ul>
+            </div>
+            <a class="btn" href="https://chromewebstore.google.com/detail/semantic-shield/acpeklmjcghnpkeghhogcdikggnbinbg" target="_blank" rel="noopener">
+              View on Chrome Web Store →
+            </a>
+          </div>
+
+          <!-- Dual-Memory Optimizer -->
+          <div class="card">
+            <div>
+              <div class="card-header">
+                <h3 class="card-title">Dual-Memory Optimizer</h3>
+                <span class="version-tag">v2.1.0</span>
+              </div>
+              <p>Prompt engineering studio, secret scrubber, and context compression suite.</p>
+              <ul class="features">
+                <li>70% to 85% token reduction on large codebases</li>
+                <li>Automatic client-side Secret &amp; PII redactor (AWS, API keys)</li>
+                <li>Chrome Built-in AI (Gemini Nano) local summarization</li>
+                <li>Side panel persistent memory and directives HUD</li>
+                <li>Zero external telemetry, privacy-preserving</li>
+              </ul>
+            </div>
+            <a class="btn" href="https://chromewebstore.google.com/detail/dual-memory-optimizer/gfhaloimblkogkogfebdmdbhklfpddba" target="_blank" rel="noopener">
+              View on Chrome Web Store →
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Developer Standards &amp; Principles</h2>
+        <div class="card" style="padding: 1.5rem;">
+          <ul class="features">
+            <li><strong>Zero Data Telemetry:</strong> None of our extensions collect, store, or transmit browsing habits, prompts, or personal identifying data to remote servers.</li>
+            <li><strong>Least Privilege Execution:</strong> Explicitly scoped permissions adhering strictly to Google Chrome Web Store Developer Program Policies.</li>
+            <li><strong>Client-Side Processing:</strong> All parsing, secret scrubbing, and network rule evaluation execute locally within your browser sandbox.</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Jesus De Lira. All rights reserved. | <a href="privacy.html">Privacy Policy</a> | <a href="https://github.com/jesusdelira7-956">Source Code on GitHub</a></p>
+    </footer>
+  </div>
+</body>
+</html>
